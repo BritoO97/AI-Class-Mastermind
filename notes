@@ -1,0 +1,2 @@
+note that the first fiveGuess code does not conduct the minimax step as described on wikipedia. This might contribute to the longer guesses, or it could be that the implementation of the checks is done in a way that is more open ended.
+Implement minimax and check - also see how the minimax step affects time averages.
