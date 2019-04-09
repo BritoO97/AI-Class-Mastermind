@@ -6,3 +6,4 @@ run5 - 10,000 of five with minimax (extra time needed for minimax means less gam
 run6 - 10,000 of five with the second minimax code (super slow)
 run7 - 100,000 of five (no minimax) looking for different statistics
 run8 - 15,000 of five with the second minimax code (super slow)
+run9 - 1,000 of five with second minimax code using 1123 as a starting guess
