@@ -2,3 +2,7 @@ run1 - 500,000 of random
 run2 - 1,000,000 of random
 run3 - 500,000 of five (no minimax)
 run4 - 1,000,000 of five (no minimax)
+run5 - 10,000 of five with minimax (extra time needed for minimax means less games)
+run6 - 10,000 of five with the second minimax code (super slow)
+run7 - 100,000 of five (no minimax) looking for different statistics
+run8 - 15,000 of five with the second minimax code (super slow)

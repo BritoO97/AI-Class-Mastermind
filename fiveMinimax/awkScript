@@ -1,0 +1,7 @@
+{
+	timeSum += $3
+	guessSum += $2
+	print $0
+}
+
+END {printf("GUESS AVG: %f | TIME TOTAL %.1f |  TIME AVG %.5f\n" ,(guessSum / NR), timeSum , (timeSum / NR))}

@@ -1,0 +1,9 @@
+#/bin/bash
+
+start=$(date)
+python3.7 fiveGuessMinimax.py $1 > results
+awk -f awkScript results > formatted
+end=$(date)
+
+echo $start > time
+echo $end >> time

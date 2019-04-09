@@ -1,0 +1,8 @@
+#/bin/bash
+
+start=$(date)
+python3.7 fiveGuess.py $1 > results
+end=$(date)
+
+echo $start > time
+echo $end >> time
