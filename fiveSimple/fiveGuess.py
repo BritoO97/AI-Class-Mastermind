@@ -19,6 +19,7 @@ def play():
         while True:
             result = game.checkGuess(guess)
             guesses += 1
+            workSet.remove(guess)
             #print(guess + " | " + result)
 
             if (result == "BBBB"):
