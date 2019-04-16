@@ -1,0 +1,2 @@
+sed 's/ /, /g'
+will replace all spaces with commas and space
