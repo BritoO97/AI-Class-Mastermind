@@ -44,8 +44,9 @@ def play():
             newSet = []
 
             for ans in workSet:
-                if (validateGuess(guess, ans) == result):
-                    newSet.append(ans)
+                if ans not in guessList:
+                    if (validateGuess(guess, ans) == result):
+                        newSet.append(ans)
 
             workSet = newSet
 
