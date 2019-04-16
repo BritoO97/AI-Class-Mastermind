@@ -8,7 +8,7 @@ run7 - 100,000 of five (no minimax) looking for different statistics
 run8 - 15,000 of five with the second minimax code (super slow)
 run9 - 1,000 of five with second minimax code using 1123 as a starting guess
 
-NOTE: Buf Found at this point. Forgot to remove last used guess from working set
+NOTE: Bug Found at this point. Forgot to remove last used guess from working set
 
 run10 - 100,000 of five (no minimax) -> no change seen over previous results
 run11 - 5,000 of the five with second minimax code (super slow) -> no change seen over previous results
